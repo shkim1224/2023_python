@@ -24,5 +24,6 @@ def draw_rect_t1():
 
 
 
+
 turtle.mainloop()
 turtle.bye()
