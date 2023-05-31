@@ -20,6 +20,8 @@ def draw_rect_t1(b):
         sleep(0.5)
         b.left(90)
 
+# draw_rect_t(t)
+# draw_rect_t1(t1)
 t_thread = threading.Thread(target=draw_rect_t,args=(t,))
 t1_thread = threading.Thread(target=draw_rect_t1,args=(t1,))
 t_thread.start()
